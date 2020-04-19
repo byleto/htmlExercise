@@ -10,22 +10,33 @@
         <!-- agrega un titulo para el documento-->
         <title>Ejemplo HTML</title>
     </head>
+    <!-- Cuerpo del documento-->
     <body>
+        <!--Div - Contenedor generico División en el documento; lo habitual es darle un nombre. -->
         <div id="contenedor-principal">
+            <!-- Encabezados de diferentes niveles h1...h6-->
             <h1>Encabezado nivel 1</h1>
             <h3>Encabezado nivel 3</h3>
             <h6>Encabezado nivel 6</h6>
+            <!--P Párrafo-->
             <p>Hola <strong>HTML</strong></p>
+            <!--strong, b pone en negrita el texto, strong es la etiqueta nueva-->
             <p>Hola <b>HTML</b></p>
+            <!-- Hiperenlace (se redirige a link indicado en el atributo HREF).-->
             <a id="enlance-1" href="https://codepen.io/funzeye/pen/yyNZNg" target="_blank">Ejemplo HTML</a>
             <div id="contenedor-imagen">
+                <!-- Imagen: se indica la imagen en el atributo SRC.-->
                 <img src="https://www.cinemascomics.com/wp-content/uploads/2018/12/star-wars-pelicula-serie-darth-vader-amp.jpg"> 
             </div>
             <div id="contenedor-audio">
+                <!-- Audio: se indica la imagen en el atributo SRC.-->
                 <audio controls src="../audio/Imperial-March.mp3"></audio>
             </div>
             <div id="contenedor-video"></div>
-            <!-- <video controls width="320" height="240" src="../videos/github.mp4"></video> -->
+                <!-- video: se indica la imagen en el atributo SRC.-->
+                <!-- <video controls width="320" height="240" src="../videos/github.mp4"></video> -->
+                <!--El elemento Marco en línea HTML (<iframe>) representa un contexto de navegación anidado, 
+                    incrustando otra página HTML en la actual.-->
             <iframe controls width="320" height="240" src="https://www.youtube.com/embed/R5gGP85ZftE"></iframe>
         </div>
         </div>
