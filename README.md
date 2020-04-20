@@ -5,4 +5,7 @@ Asignación
 	2.Subir un video de cortar duracion con path relativo y mostrarlo en la pagina introduccion.html
 	3.Agregar cambios en una branch
 	4.Hacer un pull request con los cambios
+
+Asignacion 2
+	arreglar el formato del archivo receta hummus
 	
