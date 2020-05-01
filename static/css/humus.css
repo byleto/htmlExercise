@@ -1,0 +1,40 @@
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: cursive;
+}
+
+#ingredientes {
+  text-align: left;
+  font-style: oblique;
+}
+
+body {
+  background-color: #e6fffa;
+}
+
+#receta {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#comentario-receta {
+  text-decoration-style: wavy;
+  font-style: italic;
+}
+
+#pasos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#image {
+  border-style: dashed;
+}
+
+#intro {
+  display: flex;
+  flex: 50%;
+  flex-wrap: no;
+  flex-direction: row;
+}
